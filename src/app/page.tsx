@@ -1,3 +1,4 @@
+"use client";
 import { Pricing } from "@/components/Templates/Pricing/Pricing";
 
 export default function Home() {
