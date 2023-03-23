@@ -1,5 +1,4 @@
 import { useQuery } from "react-query";
-import { WP_Post } from "wp-types";
 import { Post } from "../typs/WordpressTypes";
 type UseWordPressDataProps = {
   endpoint: string;

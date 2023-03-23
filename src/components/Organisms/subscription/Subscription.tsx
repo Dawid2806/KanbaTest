@@ -112,9 +112,9 @@ export const Subscription = () => {
           <hr className="border-1	border-[#B3B0D6] my-8	" />
           <h4 className="text-center text-2xl mt-6">
             If you are in the Education, Non-Profits, NGO sector or are
-            implementing the United Nations{" "}
-            <span className="font-bold">“Sustainable Development Goals”</span>,
-            you may join our{" "}
+            implementing the United Nations
+            <span className="font-bold">Sustainable Development Goals</span>,
+            you may join our
             <span className="text-[#F45A10]">KanBo for Good</span> program.
           </h4>
         </div>
