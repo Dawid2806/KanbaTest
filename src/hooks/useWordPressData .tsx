@@ -7,6 +7,7 @@ type UseWordPressDataProps = {
 };
 
 export const useWordPressData = ({ endpoint }: UseWordPressDataProps) => {
+  const url = process.env.WORDPRESS_URL;
   const { data, isLoading, isError } = useQuery<Post[], Error>(
     ["wordpress", endpoint],
     async () => {

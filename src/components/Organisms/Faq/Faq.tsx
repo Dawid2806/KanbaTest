@@ -3,7 +3,8 @@ import { useWordPressData } from "@/hooks/useWordPressData ";
 import React, { useState } from "react";
 
 export const Faq = () => {
-  const { data, isLoading, isError } = useWordPressData({ endpoint: "Faq" });
+  const endpoint = "faq";
+  const { data, isLoading, isError } = useWordPressData({ endpoint });
   const [activeId, setActiveId] = useState("");
   const [showAnswer, setShowAnswer] = useState(false);
 
