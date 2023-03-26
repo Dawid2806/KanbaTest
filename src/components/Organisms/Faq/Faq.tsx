@@ -17,7 +17,7 @@ export const Faq = () => {
     }
   };
 
-  if (isLoading) {
+  if (isLoading || !data) {
     return <div>Loading...</div>;
   }
 
@@ -27,7 +27,7 @@ export const Faq = () => {
 
   return (
     <div className="flex flex-col  w-2/4 mx-auto my-20 ">
-      {data?.map((post) => (
+      {data.map((post) => (
         <FaqItem
           key={post.date}
           onClick={() => showHandler(String(post.id))}
